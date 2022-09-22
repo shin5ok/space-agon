@@ -29,12 +29,12 @@ _[Google Cloud Shell](https://cloud.google.com/shell) has all tools you need._
 
 ```bash
 # Set Your Project ID before you run
-PROJECT_ID=<your project ID>
+export PROJECT_ID=<your project ID>
 
-LOCATION=us-central1
-ZONE=$LOCATION-a
+export LOCATION=us-central1
+export ZONE=$LOCATION-a
 
-REPOSITORY=space-agon
+export REPOSITORY=space-agon
 
 gcloud services enable artifactregistry.googleapis.com \
                         container.googleapis.com

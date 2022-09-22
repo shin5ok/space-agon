@@ -20,8 +20,6 @@
 #
 
 PROJECT=$(shell gcloud config list --format 'value(core.project)')
-LOCATION=us-central1
-REPOSITORY=space-agon
 REGISTRY=${LOCATION}-docker.pkg.dev/${PROJECT}/${REPOSITORY}
 
 #   _____                    _
